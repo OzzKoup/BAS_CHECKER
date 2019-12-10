@@ -23,7 +23,7 @@
             section_end()!
 
             section_start("", 250514361)!
-            /*Dat:eyJzIjoiU2VuZE1lc3NhZ2UiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiVG9rZW4iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Ijk0Mzg3NDU0OTpBQUdlSTR2d3Iyd1g2c2tVRnFqZmVlU2Q3ZXkxWm9ZSFF2dyIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IklkQ2hhdCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tHTE9CQUw6VEVMRUdSQU1fQ0hBVF9JRF1dIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiTWVzc2FnZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tOQU1FX09GX1VTRVJdXSDQndC1INGA0LDRgdGB0YvQu9Cw0LXRgiDQv9C+IFtbQ0hFQ0tfU1RBVFVTXV0gISDQntCx0YnQuNC5INCx0LDQu9Cw0L3RgSA6IFtbVE9UQUxfQkFMQU5DRV1dIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiQ2hlY2siLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlfSx7ImlkIjoiQ2hlY2sxIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZX1dfQ==*/
+            /*Dat:eyJzIjoiU2VuZE1lc3NhZ2UiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiVG9rZW4iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Ijk0Mzg3NDU0OTpBQUdlSTR2d3Iyd1g2c2tVRnFqZmVlU2Q3ZXkxWm9ZSFF2dyIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IklkQ2hhdCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tHTE9CQUw6VEVMRUdSQU1fQ0hBVF9JRF1dIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiTWVzc2FnZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tOQU1FX09GX1VTRVJdXSDQndC1INGA0LDRgdGB0YvQu9Cw0LXRgiDQv9C+IFtbQ0hFQ0tfU1RBVFVTXV0gISDQntCx0YnQuNC5INCx0LDQu9Cw0L3RgSA6IFtbVE9UQUxfQkFMQU5DRV1dIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiQ2hlY2siLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZX0seyJpZCI6IkNoZWNrMSIsInR5cGUiOiJjaGVjayIsImRhdGEiOnRydWV9XX0=*/
             var getTime = function() {
             var checkTime = function (i) {
             return (i < 10) ? "0" + i : i;
@@ -36,8 +36,8 @@
             }
             var mess, _url, json, tmp = "";
             tmp = encodeURIComponent(VAR_NAME_OF_USER + " Не рассылает по " + VAR_CHECK_STATUS + " ! Общий баланс : " + VAR_TOTAL_BALANCE)
-            mess = "<b>" + getTime() +" Поток №" + thread_number() + " : </b>" + tmp
-            _url = "https://api.telegram.org/bot"+ "943874549:AAGeI4vwr2wX6skUFqjfeeSd7ey1ZoYHQvw" + "/sendMessage?chat_id=" + JSON.parse(P("basglobal", "TELEGRAM_CHAT_ID") || '""') + "&text=" + mess + (true === true || true === true ? '&parse_mode=HTML' : '')
+            mess = "<b>" + getTime() + " </b>" + tmp
+            _url = "https://api.telegram.org/bot"+ "943874549:AAGeI4vwr2wX6skUFqjfeeSd7ey1ZoYHQvw" + "/sendMessage?chat_id=" + JSON.parse(P("basglobal", "TELEGRAM_CHAT_ID") || '""') + "&text=" + mess + (false === true || true === true ? '&parse_mode=HTML' : '')
             _switch_http_client_internal()
             http_client_get2(_url, {method:("GET")})!
             var json = JSON.parse(http_client_content())
@@ -65,8 +65,8 @@
             VAR_CHECK_STATUS = "ACTIVE DIALOGS"
             section_end()!
 
-            section_start("", 519254680)!
-            /*Dat:eyJzIjoiU2VuZE1lc3NhZ2UiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiVG9rZW4iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Ijk0Mzg3NDU0OTpBQUdlSTR2d3Iyd1g2c2tVRnFqZmVlU2Q3ZXkxWm9ZSFF2dyIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IklkQ2hhdCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tHTE9CQUw6VEVMRUdSQU1fQ0hBVF9JRF1dIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiTWVzc2FnZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tOQU1FX09GX1VTRVJdXSDQndC1INGA0LDRgdGB0YvQu9Cw0LXRgiDQv9C+IFtbQ0hFQ0tfU1RBVFVTXV0gISDQntCx0YnQuNC5INCx0LDQu9Cw0L3RgSA6IFtbVE9UQUxfQkFMQU5DRV1dIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiQ2hlY2siLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlfSx7ImlkIjoiQ2hlY2sxIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZX1dfQ==*/
+            section_start("\u007b\u0022e\u0022:true\u007d", 519254680)!
+            /*Dat:eyJzIjoiU2VuZE1lc3NhZ2UiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiVG9rZW4iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Ijk0Mzg3NDU0OTpBQUdlSTR2d3Iyd1g2c2tVRnFqZmVlU2Q3ZXkxWm9ZSFF2dyIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IklkQ2hhdCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tHTE9CQUw6VEVMRUdSQU1fQ0hBVF9JRF1dIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiTWVzc2FnZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tOQU1FX09GX1VTRVJdXSDQndC1INGA0LDRgdGB0YvQu9Cw0LXRgiDQv9C+IFtbQ0hFQ0tfU1RBVFVTXV0gISDQntCx0YnQuNC5INCx0LDQu9Cw0L3RgSA6IFtbVE9UQUxfQkFMQU5DRV1dIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiQ2hlY2siLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZX0seyJpZCI6IkNoZWNrMSIsInR5cGUiOiJjaGVjayIsImRhdGEiOnRydWV9XX0=*/
             var getTime = function() {
             var checkTime = function (i) {
             return (i < 10) ? "0" + i : i;
@@ -79,8 +79,8 @@
             }
             var mess, _url, json, tmp = "";
             tmp = encodeURIComponent(VAR_NAME_OF_USER + " Не рассылает по " + VAR_CHECK_STATUS + " ! Общий баланс : " + VAR_TOTAL_BALANCE)
-            mess = "<b>" + getTime() +" Поток №" + thread_number() + " : </b>" + tmp
-            _url = "https://api.telegram.org/bot"+ "943874549:AAGeI4vwr2wX6skUFqjfeeSd7ey1ZoYHQvw" + "/sendMessage?chat_id=" + JSON.parse(P("basglobal", "TELEGRAM_CHAT_ID") || '""') + "&text=" + mess + (true === true || true === true ? '&parse_mode=HTML' : '')
+            mess = "<b>" + getTime() + " </b>" + tmp
+            _url = "https://api.telegram.org/bot"+ "943874549:AAGeI4vwr2wX6skUFqjfeeSd7ey1ZoYHQvw" + "/sendMessage?chat_id=" + JSON.parse(P("basglobal", "TELEGRAM_CHAT_ID") || '""') + "&text=" + mess + (false === true || true === true ? '&parse_mode=HTML' : '')
             _switch_http_client_internal()
             http_client_get2(_url, {method:("GET")})!
             var json = JSON.parse(http_client_content())
@@ -952,7 +952,7 @@
      <CopySilent>false</CopySilent>
      <IsEnginesInAppData>true</IsEnginesInAppData>
      <CompileType>PrivateScriptEnterPassForUser</CompileType>
-     <ScriptVersion>1.11.0</ScriptVersion>
+     <ScriptVersion>1.12.0</ScriptVersion>
      <AvailableLanguages>en,ru</AvailableLanguages>
      <EngineVersion>22.2.2</EngineVersion>
      <SettingsWorker>EnableFlash=false
