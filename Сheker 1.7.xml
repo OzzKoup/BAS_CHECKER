@@ -23,7 +23,7 @@
             section_end()!
 
             section_start("", 250514361)!
-            /*Dat:eyJzIjoiU2VuZE1lc3NhZ2UiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiVG9rZW4iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Ijk0Mzg3NDU0OTpBQUdlSTR2d3Iyd1g2c2tVRnFqZmVlU2Q3ZXkxWm9ZSFF2dyIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IklkQ2hhdCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tHTE9CQUw6VEVMRUdSQU1fQ0hBVF9JRF1dIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiTWVzc2FnZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tOQU1FX09GX1VTRVJdXSDQndC1INGA0LDRgdGB0YvQu9Cw0LXRgiDQv9C+IFtbQ0hFQ0tfU1RBVFVTXV0hINCi0LXQutGD0YnQuNC5INCx0LDQu9Cw0L3RgSA6W1tDVVJSRU5UX0JBTEFOQ0VdXS4g0J7QsdGJ0LjQuSDQsdCw0LvQsNC90YEgOiBbW1RPVEFMX0JBTEFOQ0VdXSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoZWNrIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9LHsiaWQiOiJDaGVjazEiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlfV19*/
+            /*Dat:eyJzIjoiU2VuZE1lc3NhZ2UiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiVG9rZW4iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Ijk0Mzg3NDU0OTpBQUdlSTR2d3Iyd1g2c2tVRnFqZmVlU2Q3ZXkxWm9ZSFF2dyIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IklkQ2hhdCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tHTE9CQUw6VEVMRUdSQU1fQ0hBVF9JRF1dIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiTWVzc2FnZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tOQU1FX09GX1VTRVJdXSwg0L3QtSDRgNCw0YHRgdGL0LvQsNC10YIg0L/QviBbW0NIRUNLX1NUQVRVU11dINCi0LXQutGD0YnQuNC5INCx0LDQu9Cw0L3RgSA6W1tDVVJSRU5UX0JBTEFOQ0VdXSDQntCx0YnQuNC5INCx0LDQu9Cw0L3RgSA6IFtbVE9UQUxfQkFMQU5DRV1dIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiQ2hlY2siLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZX0seyJpZCI6IkNoZWNrMSIsInR5cGUiOiJjaGVjayIsImRhdGEiOnRydWV9XX0=*/
             var getTime = function() {
             var checkTime = function (i) {
             return (i < 10) ? "0" + i : i;
@@ -35,7 +35,7 @@
             return '[' + hh + ':' + mm + ':' + ss + ']'
             }
             var mess, _url, json, tmp = "";
-            tmp = encodeURIComponent(VAR_NAME_OF_USER + " Не рассылает по " + VAR_CHECK_STATUS + "! Текущий баланс :" + VAR_CURRENT_BALANCE + ". Общий баланс : " + VAR_TOTAL_BALANCE)
+            tmp = encodeURIComponent(VAR_NAME_OF_USER + ", не рассылает по " + VAR_CHECK_STATUS + " Текущий баланс :" + VAR_CURRENT_BALANCE + " Общий баланс : " + VAR_TOTAL_BALANCE)
             mess = "<b>" + getTime() + " </b>" + tmp
             _url = "https://api.telegram.org/bot"+ "943874549:AAGeI4vwr2wX6skUFqjfeeSd7ey1ZoYHQvw" + "/sendMessage?chat_id=" + JSON.parse(P("basglobal", "TELEGRAM_CHAT_ID") || '""') + "&text=" + mess + (false === true || true === true ? '&parse_mode=HTML' : '')
             _switch_http_client_internal()
@@ -66,7 +66,7 @@
             section_end()!
 
             section_start("\u007b\u0022e\u0022:true\u007d", 519254680)!
-            /*Dat:eyJzIjoiU2VuZE1lc3NhZ2UiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiVG9rZW4iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Ijk0Mzg3NDU0OTpBQUdlSTR2d3Iyd1g2c2tVRnFqZmVlU2Q3ZXkxWm9ZSFF2dyIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IklkQ2hhdCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tHTE9CQUw6VEVMRUdSQU1fQ0hBVF9JRF1dIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiTWVzc2FnZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tOQU1FX09GX1VTRVJdXSDQndC1INGA0LDRgdGB0YvQu9Cw0LXRgiDQv9C+IFtbQ0hFQ0tfU1RBVFVTXV0hINCi0LXQutGD0YnQuNC5INCx0LDQu9Cw0L3RgSA6W1tDVVJSRU5UX0JBTEFOQ0VdXS4g0J7QsdGJ0LjQuSDQsdCw0LvQsNC90YEgOiBbW1RPVEFMX0JBTEFOQ0VdXSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoZWNrIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9LHsiaWQiOiJDaGVjazEiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlfV19*/
+            /*Dat:eyJzIjoiU2VuZE1lc3NhZ2UiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiVG9rZW4iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Ijk0Mzg3NDU0OTpBQUdlSTR2d3Iyd1g2c2tVRnFqZmVlU2Q3ZXkxWm9ZSFF2dyIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IklkQ2hhdCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tHTE9CQUw6VEVMRUdSQU1fQ0hBVF9JRF1dIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiTWVzc2FnZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tOQU1FX09GX1VTRVJdXSwg0L3QtSDRgNCw0YHRgdGL0LvQsNC10YIg0L/QviBbW0NIRUNLX1NUQVRVU11dINCi0LXQutGD0YnQuNC5INCx0LDQu9Cw0L3RgSA6W1tDVVJSRU5UX0JBTEFOQ0VdXSAg0J7QsdGJ0LjQuSDQsdCw0LvQsNC90YEgOiBbW1RPVEFMX0JBTEFOQ0VdXSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoZWNrIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9LHsiaWQiOiJDaGVjazEiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlfV19*/
             var getTime = function() {
             var checkTime = function (i) {
             return (i < 10) ? "0" + i : i;
@@ -78,7 +78,7 @@
             return '[' + hh + ':' + mm + ':' + ss + ']'
             }
             var mess, _url, json, tmp = "";
-            tmp = encodeURIComponent(VAR_NAME_OF_USER + " Не рассылает по " + VAR_CHECK_STATUS + "! Текущий баланс :" + VAR_CURRENT_BALANCE + ". Общий баланс : " + VAR_TOTAL_BALANCE)
+            tmp = encodeURIComponent(VAR_NAME_OF_USER + ", не рассылает по " + VAR_CHECK_STATUS + " Текущий баланс :" + VAR_CURRENT_BALANCE + "  Общий баланс : " + VAR_TOTAL_BALANCE)
             mess = "<b>" + getTime() + " </b>" + tmp
             _url = "https://api.telegram.org/bot"+ "943874549:AAGeI4vwr2wX6skUFqjfeeSd7ey1ZoYHQvw" + "/sendMessage?chat_id=" + JSON.parse(P("basglobal", "TELEGRAM_CHAT_ID") || '""') + "&text=" + mess + (false === true || true === true ? '&parse_mode=HTML' : '')
             _switch_http_client_internal()
@@ -109,7 +109,7 @@
             section_end()!
 
             section_start("", 142531873)!
-            /*Dat:eyJzIjoiU2VuZE1lc3NhZ2UiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiVG9rZW4iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Ijk0Mzg3NDU0OTpBQUdlSTR2d3Iyd1g2c2tVRnFqZmVlU2Q3ZXkxWm9ZSFF2dyIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IklkQ2hhdCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tHTE9CQUw6VEVMRUdSQU1fQ0hBVF9JRF1dIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiTWVzc2FnZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tOQU1FX09GX1VTRVJdXSDQndC1INGA0LDRgdGB0YvQu9Cw0LXRgiDQv9C+IFtbQ0hFQ0tfU1RBVFVTXV0hINCi0LXQutGD0YnQuNC5INCx0LDQu9Cw0L3RgSA6W1tDVVJSRU5UX0JBTEFOQ0VdXS4g0J7QsdGJ0LjQuSDQsdCw0LvQsNC90YEgOiBbW1RPVEFMX0JBTEFOQ0VdXTsiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfSx7ImlkIjoiQ2hlY2sxIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZX1dfQ==*/
+            /*Dat:eyJzIjoiU2VuZE1lc3NhZ2UiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiVG9rZW4iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Ijk0Mzg3NDU0OTpBQUdlSTR2d3Iyd1g2c2tVRnFqZmVlU2Q3ZXkxWm9ZSFF2dyIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IklkQ2hhdCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tHTE9CQUw6VEVMRUdSQU1fQ0hBVF9JRF1dIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiTWVzc2FnZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tOQU1FX09GX1VTRVJdXSwg0L3QtSDRgNCw0YHRgdGL0LvQsNC10YIg0L/QviBbW0NIRUNLX1NUQVRVU11dICAg0KLQtdC60YPRidC40Lkg0LHQsNC70LDQvdGBIDpbW0NVUlJFTlRfQkFMQU5DRV1dICAg0J7QsdGJ0LjQuSDQsdCw0LvQsNC90YEgOiBbW1RPVEFMX0JBTEFOQ0VdXTsiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfSx7ImlkIjoiQ2hlY2sxIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZX1dfQ==*/
             var getTime = function() {
             var checkTime = function (i) {
             return (i < 10) ? "0" + i : i;
@@ -121,7 +121,7 @@
             return '[' + hh + ':' + mm + ':' + ss + ']'
             }
             var mess, _url, json, tmp = "";
-            tmp = encodeURIComponent(VAR_NAME_OF_USER + " Не рассылает по " + VAR_CHECK_STATUS + "! Текущий баланс :" + VAR_CURRENT_BALANCE + ". Общий баланс : " + VAR_TOTAL_BALANCE + ";")
+            tmp = encodeURIComponent(VAR_NAME_OF_USER + ", не рассылает по " + VAR_CHECK_STATUS + "   Текущий баланс :" + VAR_CURRENT_BALANCE + "   Общий баланс : " + VAR_TOTAL_BALANCE + ";")
             mess = "<b>" + getTime() + " </b>" + tmp
             _url = "https://api.telegram.org/bot"+ "943874549:AAGeI4vwr2wX6skUFqjfeeSd7ey1ZoYHQvw" + "/sendMessage?chat_id=" + JSON.parse(P("basglobal", "TELEGRAM_CHAT_ID") || '""') + "&text=" + mess + (false === true || true === true ? '&parse_mode=HTML' : '')
             _switch_http_client_internal()
@@ -152,7 +152,7 @@
             section_end()!
 
             section_start("", 419676763)!
-            /*Dat:eyJzIjoiU2VuZE1lc3NhZ2UiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiVG9rZW4iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Ijk0Mzg3NDU0OTpBQUdlSTR2d3Iyd1g2c2tVRnFqZmVlU2Q3ZXkxWm9ZSFF2dyIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IklkQ2hhdCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tHTE9CQUw6VEVMRUdSQU1fQ0hBVF9JRF1dIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiTWVzc2FnZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tOQU1FX09GX1VTRVJdXSDQkNC60YLQuNCy0L3Ri9C5LtCi0LXQutGD0YnQuNC5INCx0LDQu9Cw0L3RgSA6W1tDVVJSRU5UX0JBTEFOQ0VdXS4g0J7QsdGJ0LjQuSDQsdCw0LvQsNC90YEgOiBbW1RPVEFMX0JBTEFOQ0VdXTsiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfSx7ImlkIjoiQ2hlY2sxIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZX1dfQ==*/
+            /*Dat:eyJzIjoiU2VuZE1lc3NhZ2UiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiVG9rZW4iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Ijk0Mzg3NDU0OTpBQUdlSTR2d3Iyd1g2c2tVRnFqZmVlU2Q3ZXkxWm9ZSFF2dyIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IklkQ2hhdCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tHTE9CQUw6VEVMRUdSQU1fQ0hBVF9JRF1dIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiTWVzc2FnZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tOQU1FX09GX1VTRVJdXSAtICDQkNC60YLQuNCy0L3Ri9C5ICDQotC10LrRg9GJ0LjQuSDQsdCw0LvQsNC90YEgOiAgW1tDVVJSRU5UX0JBTEFOQ0VdXSAgINCe0LHRidC40Lkg0LHQsNC70LDQvdGBIDogW1tUT1RBTF9CQUxBTkNFXV0iLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfSx7ImlkIjoiQ2hlY2sxIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZX1dfQ==*/
             var getTime = function() {
             var checkTime = function (i) {
             return (i < 10) ? "0" + i : i;
@@ -164,7 +164,7 @@
             return '[' + hh + ':' + mm + ':' + ss + ']'
             }
             var mess, _url, json, tmp = "";
-            tmp = encodeURIComponent(VAR_NAME_OF_USER + " Активный.Текущий баланс :" + VAR_CURRENT_BALANCE + ". Общий баланс : " + VAR_TOTAL_BALANCE + ";")
+            tmp = encodeURIComponent(VAR_NAME_OF_USER + " -  Активный  Текущий баланс :  " + VAR_CURRENT_BALANCE + "   Общий баланс : " + VAR_TOTAL_BALANCE)
             mess = "<b>" + getTime() + " </b>" + tmp
             _url = "https://api.telegram.org/bot"+ "943874549:AAGeI4vwr2wX6skUFqjfeeSd7ey1ZoYHQvw" + "/sendMessage?chat_id=" + JSON.parse(P("basglobal", "TELEGRAM_CHAT_ID") || '""') + "&text=" + mess + (false === true || true === true ? '&parse_mode=HTML' : '')
             _switch_http_client_internal()
@@ -231,18 +231,18 @@
       VAR_CURRENT_DATE_NOW = VAR_DATE_WITH_CHANGED_TIMEZONE
       section_end()!
 
-      section_start("", 662564569)!
-      /*Dat:eyJzIjoiUmVnZXhwU2NhbiIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJWYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tDVVJSRU5UX0RBVEVfTk9XXV0iLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJSZWdleHAiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IlswLTldezR9LVswLTldezJ9LVswLTldezJ9IiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiUmVzdWx0IiwidHlwZSI6InZhciIsImRhdGEiOiJTQ0FOX1JFU1VMVF9MSVNUIn1dfQ==*/
-      VAR_SCAN_RESULT_LIST = native("regexp", "scan", JSON.stringify({text: VAR_CURRENT_DATE_NOW,regexp:"[0-9]\u007b4\u007d-[0-9]\u007b2\u007d-[0-9]\u007b2\u007d"}))
+      section_start("", 705867476)!
+      /*Dat:eyJzIjoiUmVnZXhwU2NhbiIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJWYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tDVVJSRU5UX0RBVEVfTk9XXV0iLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJSZWdleHAiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IlxcZHs0fS1cXGR7Mn0tXFxkezJ9IiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiUmVzdWx0IiwidHlwZSI6InZhciIsImRhdGEiOiJTQ0FOX1JFU1VMVF9MSVNUIn1dfQ==*/
+      VAR_SCAN_RESULT_LIST = native("regexp", "scan", JSON.stringify({text: VAR_CURRENT_DATE_NOW,regexp:"\u005cd\u007b4\u007d-\u005cd\u007b2\u007d-\u005cd\u007b2\u007d"}))
       if(VAR_SCAN_RESULT_LIST.length == 0)
       VAR_SCAN_RESULT_LIST = []
       else
       VAR_SCAN_RESULT_LIST = JSON.parse(VAR_SCAN_RESULT_LIST)
       section_end()!
 
-      section_start("", 357272798)!
-      /*Dat:eyJzIjoiR2V0RWxlbWVudEJ5SW5kZXgiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiVmFyaWFibGUiLCJ0eXBlIjoidmFyIiwiZGF0YSI6IlNDQU5fUkVTVUxUX0xJU1QifSx7ImlkIjoiSW5kZXgiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjAiLCJjbGFzcyI6ImludCJ9LHsiaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfSx7ImlkIjoiVmFyaWFibGVSZXN1bHQiLCJ0eXBlIjoidmFyIiwiZGF0YSI6ImN1cnJlbnRfZGF0ZV9mb3JfY29tcGFyaW5nIn1dfQ==*/
-      VAR_CURRENT_DATE_FOR_COMPARING = (VAR_SCAN_RESULT_LIST)[0];
+      section_start("", 971475338)!
+      /*Dat:eyJzIjoic2V0dmFyaWFibGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2V0VmFyaWFibGVOYW1lIiwidHlwZSI6InZhciIsImRhdGEiOiJjdXJyZW50X2RhdGVfZm9yX2NvbXBhcmluZyJ9LHsiaWQiOiJTZXRWYXJpYWJsZVZhbHVlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1NDQU5fUkVTVUxUX0xJU1RdXSIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
+      VAR_CURRENT_DATE_FOR_COMPARING = VAR_SCAN_RESULT_LIST
       section_end()!
 
       section_start("", 101897358)!
@@ -267,22 +267,58 @@
          VAR_CURRENT_ELEMENT_XML = _result()
          section_end()!
 
-         section_start("", 794563862)!
+         section_start("", 90034483)!
          /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW0NVUlJFTlRfRUxFTUVOVF9YTUxdXS5pbmRleE9mKFtbQ1VSUkVOVF9EQVRFX0ZPUl9DT01QQVJJTkddXSkgPiAwIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IklmRWxzZSIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV19*/
          _if(VAR_CURRENT_ELEMENT_XML.indexOf(VAR_CURRENT_DATE_FOR_COMPARING) > 0,function(){
          section_insert()
-            section_start("", 341150049)!
-            /*Dat:eyJzIjoiUmVnZXhwU2NhbiIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJWYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tDVVJSRU5UX0VMRU1FTlRfWE1MXV0iLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJSZWdleHAiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Ilxcc1swLTldezJ9XFxzfFxcc1swLTldezN9XFxzfFxcc1swLTldezF9XFxzfFxcc1swLTldezR9XFxzIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiUmVzdWx0IiwidHlwZSI6InZhciIsImRhdGEiOiJzZWxlY3RlZF9hZnRlcl9maXJzdF9jb21wYXJpbmcifV19*/
-            VAR_SELECTED_AFTER_FIRST_COMPARING = native("regexp", "scan", JSON.stringify({text: VAR_CURRENT_ELEMENT_XML,regexp:"\u005cs[0-9]\u007b2\u007d\u005cs|\u005cs[0-9]\u007b3\u007d\u005cs|\u005cs[0-9]\u007b1\u007d\u005cs|\u005cs[0-9]\u007b4\u007d\u005cs"}))
-            if(VAR_SELECTED_AFTER_FIRST_COMPARING.length == 0)
-            VAR_SELECTED_AFTER_FIRST_COMPARING = []
+            section_start("", 513967460)!
+            /*Dat:eyJzIjoiUmVnZXhwU3BsaXQiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbQ1VSUkVOVF9FTEVNRU5UX1hNTF1dIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiUmVnZXhwIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbXFxzXXsxfSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IlJlc3VsdCIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiTElTVF9GUk9NX1NUUklORyJ9XX0=*/
+            VAR_LIST_FROM_STRING = native("regexp", "split", JSON.stringify({text: VAR_CURRENT_ELEMENT_XML,regexp:"[\u005cs]\u007b1\u007d"}))
+            if(VAR_LIST_FROM_STRING.length == 0)
+            VAR_LIST_FROM_STRING = []
             else
-            VAR_SELECTED_AFTER_FIRST_COMPARING = JSON.parse(VAR_SELECTED_AFTER_FIRST_COMPARING)
+            VAR_LIST_FROM_STRING = JSON.parse(VAR_LIST_FROM_STRING)
             section_end()!
 
-            section_start("", 122720315)!
-            /*Dat:eyJzIjoiR2V0RWxlbWVudEJ5SW5kZXgiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiVmFyaWFibGUiLCJ0eXBlIjoidmFyIiwiZGF0YSI6IlNFTEVDVEVEX0FGVEVSX0ZJUlNUX0NPTVBBUklORyJ9LHsiaWQiOiJJbmRleCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMCIsImNsYXNzIjoiaW50In0seyJpZCI6IkNoZWNrIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9LHsiaWQiOiJWYXJpYWJsZVJlc3VsdCIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiY3VycmVudF9iYWxhbmNlIn1dfQ==*/
-            VAR_CURRENT_BALANCE = (VAR_SELECTED_AFTER_FIRST_COMPARING)[0];
+            section_start("", 121489794)!
+            /*Dat:eyJzIjoiR2V0RWxlbWVudEJ5SW5kZXgiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiVmFyaWFibGUiLCJ0eXBlIjoidmFyIiwiZGF0YSI6IkxJU1RfRlJPTV9TVFJJTkcifSx7ImlkIjoiSW5kZXgiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjgiLCJjbGFzcyI6ImludCJ9LHsiaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfSx7ImlkIjoiVmFyaWFibGVSZXN1bHQiLCJ0eXBlIjoidmFyIiwiZGF0YSI6IkxJU1RfRUxFTUVOVCJ9XX0=*/
+            VAR_LIST_ELEMENT = (VAR_LIST_FROM_STRING)[8];
+            section_end()!
+
+            section_start("", 8092664)!
+            /*Dat:eyJzIjoiR2V0RWxlbWVudEJ5SW5kZXgiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiVmFyaWFibGUiLCJ0eXBlIjoidmFyIiwiZGF0YSI6IkxJU1RfRlJPTV9TVFJJTkcifSx7ImlkIjoiSW5kZXgiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjkiLCJjbGFzcyI6ImludCJ9LHsiaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfSx7ImlkIjoiVmFyaWFibGVSZXN1bHQiLCJ0eXBlIjoidmFyIiwiZGF0YSI6ImlmX21vcmVfdGhhbl8xMDAwIn1dfQ==*/
+            VAR_IF_MORE_THAN_1000 = (VAR_LIST_FROM_STRING)[9];
+            section_end()!
+
+            section_start("", 471945506)!
+            /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbSUZfTU9SRV9USEFOXzEwMDBdXSIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
+            log(VAR_IF_MORE_THAN_1000)
+            section_end()!
+
+            section_start("", 102686834)!
+            /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJyb2xlIjoibWFzdGVyIiwic2xhdmUiOjQ2NDMwMTg2MSwibWFzdGVyIjozMTQ1NjA1OSwiaWZfdmFyIjoiSUZfRUxTRV9FWFBSRVNTSU9OXzIxNTUyNyIsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJJZkV4cHJlc3Npb24iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbSUZfTU9SRV9USEFOXzEwMDBdXSAlIDEgPT0gMCIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJJZkVsc2UiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlfV19*/
+            IF_ELSE_EXPRESSION_215527 = VAR_IF_MORE_THAN_1000 % 1 == 0;
+            _if(IF_ELSE_EXPRESSION_215527,function(){
+            section_insert()
+               section_start("", 270780599)!
+               /*Dat:eyJzIjoic2V0dmFyaWFibGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2V0VmFyaWFibGVOYW1lIiwidHlwZSI6InZhciIsImRhdGEiOiJDVVJSRU5UX0JBTEFOQ0UifSx7ImlkIjoiU2V0VmFyaWFibGVWYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tMSVNUX0VMRU1FTlRdXSBbW0lGX01PUkVfVEhBTl8xMDAwXV0iLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
+               VAR_CURRENT_BALANCE = VAR_LIST_ELEMENT + " " + VAR_IF_MORE_THAN_1000
+               section_end()!
+
+            })!
+            section_end()!
+
+            section_start("\u007b\u0022n\u0022:\u0022Else\u0022\u007d", 464301861)!
+            /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJyb2xlIjoic2xhdmUiLCJzbGF2ZSI6NDY0MzAxODYxLCJtYXN0ZXIiOjEwMjY4NjgzNCwiaWZfdmFyIjoiSUZfRUxTRV9FWFBSRVNTSU9OXzIxNTUyNyIsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJJZkV4cHJlc3Npb24iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbSUZfTU9SRV9USEFOXzEwMDBdXSAlIDEgPT0gW1tJRl9NT1JFX1RIQU5fMTAwMF1dIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IklmRWxzZSIsInR5cGUiOiJjaGVjayIsImRhdGEiOnRydWV9XX0=*/
+            _if(!IF_ELSE_EXPRESSION_215527,function(){
+            section_insert()
+               section_start("", 739583728)!
+               /*Dat:eyJzIjoic2V0dmFyaWFibGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2V0VmFyaWFibGVOYW1lIiwidHlwZSI6InZhciIsImRhdGEiOiJDVVJSRU5UX0JBTEFOQ0UifSx7ImlkIjoiU2V0VmFyaWFibGVWYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tMSVNUX0VMRU1FTlRdXSIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
+               VAR_CURRENT_BALANCE = VAR_LIST_ELEMENT
+               section_end()!
+
+            })!
+            delete IF_ELSE_EXPRESSION_215527;
             section_end()!
 
          })!
@@ -1046,7 +1082,7 @@
      <CopySilent>false</CopySilent>
      <IsEnginesInAppData>true</IsEnginesInAppData>
      <CompileType>PrivateScriptEnterPassForUser</CompileType>
-     <ScriptVersion>1.14.0</ScriptVersion>
+     <ScriptVersion>1.16.0</ScriptVersion>
      <AvailableLanguages>en,ru</AvailableLanguages>
      <EngineVersion>22.2.2</EngineVersion>
      <SettingsWorker>EnableFlash=false
